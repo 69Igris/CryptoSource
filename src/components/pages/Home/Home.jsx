@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './Home.css'
-import { CoinContext } from '../../../Context/CoinCONTEXT.JSX'
+import { CoinContext } from '../../../Context/CoinContext.jsx'
 
 const Home = () => {
 
