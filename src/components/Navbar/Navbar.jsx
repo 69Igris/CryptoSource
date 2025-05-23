@@ -3,7 +3,7 @@ import './Navbar.css'
 import logo from '../../assets/logo.png'
 import arrow_icon from '../../assets/arrow_icon.png'
 import '@fortawesome/fontawesome-free/css/all.min.css'
-import { CoinContext } from '../../Context/CoinCONTEXT.JSX'
+import { CoinContext } from '../../Context/CoinContext.jsx'
 
 const Navbar = () => {
 
