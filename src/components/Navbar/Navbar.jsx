@@ -4,6 +4,7 @@ import logo from '../../assets/logo.png'
 import arrow_icon from '../../assets/arrow_icon.png'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { CoinContext } from '../../Context/CoinContext.jsx'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -33,9 +34,9 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <img src={logo} alt="" className='logo' />
+      <Link to={'/'}><img src={logo} alt="" className='logo' /></Link>
       <ul>
-        <li>Home</li>
+      <Link to={'/'}><li>Home</li></Link>
         <li>Features</li>
         <li>Pricing</li>
         <li>Blog</li>
